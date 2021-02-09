@@ -1,9 +1,11 @@
-# python-package
-Python Package Boilerplate
+# beak
 
 ## Usage
-```
-git clone https://github.com/brunneis/python-package
-cd python-package
-./rename.sh
+```python
+from beak import Beak
+
+beak = Beak()
+
+for result in beak.search('query'):
+    print(result)
 ```
